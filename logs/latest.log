@@ -3960,3 +3960,4 @@ Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NoSuchFiel
 [14:55:05] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [14:59:05] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [15:03:06] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[15:07:07] [Thread-10/INFO]: [gg.playit.control.ChannelSetup] send keep alive
