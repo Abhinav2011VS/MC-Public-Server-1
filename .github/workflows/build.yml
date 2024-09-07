@@ -35,7 +35,7 @@ jobs:
 
       - name: Start Minecraft Server, Save-All Loop, and Commit Loop
         run: |
-          echo "Server Run 1..."
+          echo "Server Run 2..."
           # Start the Minecraft server in a detached screen session
           screen -dmS mc_server /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/21.0.4-7/x64/bin/java -Xmx30G -XX:+UseG1GC -jar server.jar nogui
 
