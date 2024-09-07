@@ -1,0 +1,75 @@
+name: Deploy Minecraft Server
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  start-server:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Java 21
+        uses: actions/setup-java@v3
+        with:
+          java-version: '21'
+          distribution: 'temurin'
+
+      - name: Install Dependencies
+        run: sudo apt-get update && sudo apt-get install -y wget screen
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+
+      - name: Verify Java Installation
+        run: java -version
+
+      - name: Verify Server File
+        run: ls -l server.jar
+
+      - name: Start Minecraft Server, Save-All Loop, and Commit Loop
+        run: |
+          echo "Server Run 1..."
+          # Start the Minecraft server in a detached screen session
+          screen -dmS mc_server /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/21.0.4-7/x64/bin/java -Xmx30G -XX:+UseG1GC -jar server.jar nogui
+
+          echo "Minecraft server started in detached screen session."
+
+          # Start the commit loop in the background
+          nohup bash -c '
+            while true; do
+              git pull origin master --rebase
+              git add --all  # Add all changes (new, modified, deleted files)
+              git commit -m "Auto-update server changes"
+              git push -f
+              sleep 60  # Commit every minute
+            done
+          ' > commit_loop.log 2>&1 &
+
+          # Wait for the server to run for 5 hours (18000 seconds)
+          sleep 180000
+
+          # Safe stop the Minecraft server
+          screen -S mc_server -p 0 -X stuff "stop$(printf \\r)"
+          sleep 30  # Wait for the server to shut down
+
+          # Stop the save-all loop
+          pkill -f 'while true; do screen -S mc_server -p 0 -X stuff "/save-all$(printf \\r)"; sleep 300; done'
+          
+          # Stop the commit loop
+          pkill -f 'while true; do git pull origin master --rebase; git add --all; git commit -m "Auto-update server changes"; git push -f; sleep 60; done'
+          
+          echo "Server has been safely stopped. Save-all and commit loops terminated."
+
+          # Final commit to capture all changes
+          git pull origin master --rebase
+          git add --all  # Add all final changes
+          git commit -m "Final commit after server stop"
+          git push -f
+          echo "Final commit made and pushed."
