@@ -1,0 +1,58 @@
+# PerWorldPlugins Configuration
+
+# Disable or Enable the message of new updates.
+updateChecker: true
+# Disable or Enable the bStats metrics.
+metrics: true
+# Message send when execute blocked plugin command.
+disabledCommandMessage: '&4[Server]: &f{player} this command is disabled for {world}.'
+
+# If false, the plugins/groups added in the world will work.
+# If true, it will be reversed.
+blacklist: true
+
+plugins:
+  # For set group set - g:example (example is the name of group)
+  # Add and edit groups in the groups.yml
+  # ":ignore" is for ignore this plugin and don't check this.
+  # In the Example case, the plugin is blocked in "world" (If is the blacklist on true)
+  Example:
+  - world
+  WorldEdit:
+  - :ignore
+  SilentAutoSave:
+  - :ignore
+  SkinsRestorer:
+  - :ignore
+  Essentials:
+  - :ignore
+  ViaVersion:
+  - :ignore
+  Multiverse-Core:
+  - :ignore
+  EssentialsSpawn:
+  - :ignore
+  ViaBackwards:
+  - :ignore
+  playit-gg:
+  - :ignore
+  Discord-Linker:
+  - :ignore
+  oplogin:
+  - :ignore
+  Multiverse-Inventories:
+  - :ignore
+  AuthMe:
+  - :ignore
+  WorldGuard:
+  - :ignore
+  fast-leaf-decay:
+  - :ignore
+  Multiverse-NetherPortals:
+  - :ignore
+  BuildPaste:
+  - :ignore
+  EssentialsChat:
+  - :ignore
+  AntiVillagerLag:
+  - :ignore

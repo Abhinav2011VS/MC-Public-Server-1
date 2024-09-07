@@ -1,0 +1,69 @@
+# SilentAutoSave Plugin Configuration
+
+# -------------------------
+# Auto Save Configuration
+# -------------------------
+save-interval: 60  # Interval (in seconds) for auto-saving the world
+
+# Backup Configuration
+backup-limit: 5  # Maximum number of backups to retain
+
+# -------------------------
+# Entity Control Configuration
+# -------------------------
+entity-clear-interval: 600  # Interval (in seconds) for clearing specific entities
+entity-clear-types:
+  - SKELETON
+  - STRAY
+  - WITHER_SKELETON
+  - ZOMBIE
+  - ZOMBIE_VILLAGER
+  - HUSK
+  - CAVE_SPIDER
+  - SPIDER
+  - DROWNED
+  - PIGLIN
+  - ZOMBIE_PIGLIN
+  - PIGLIN_BRUTE
+  - HOGLIN
+  - MAGMA_CUBE
+  - VEX
+  - BLAZE
+  - SLIME
+  - WITCH
+  - ENDERMITE
+  - SILVERFISH
+  - PHANTOM
+  - ILLUSIONER
+
+# -------------------------
+# Chunk Management Configuration
+# -------------------------
+chunk-optimize-interval: 600  # Interval (in seconds) for chunk optimization
+
+# -------------------------
+# Performance Boosters
+# -------------------------
+auto-adjust-tps: true  # Automatically adjust TPS based on performance
+tps-threshold: 18  # TPS threshold below which adjustments are made
+
+# -------------------------
+# Mob Spawn Management
+# -------------------------
+mob-spawn-limit: 50  # Limit for mob spawns
+
+# -------------------------
+# Night Vision Configuration
+# -------------------------
+enable-night-vision: true  # Enable Night Vision for all players
+
+# -------------------------
+# View Distance Configuration
+# -------------------------
+view-distance: 32  # Set maximum view distance for all worlds
+simulation-distance: 32  # Set maximum simulation distance for all worlds
+
+# -------------------------
+# Miscellaneous
+# -------------------------
+# Adjust these settings as needed for your server performance and preferences

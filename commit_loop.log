@@ -1,2 +1,63 @@
 error: cannot pull with rebase: You have unstaged changes.
 error: Please commit or stash them.
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+Everything up-to-date
+error: cannot pull with rebase: You have unstaged changes.
+error: Please commit or stash them.
+fatal: unable to stat 'plugins/spark/tmp-client/spark-563b2083fa-profile-data.jfr.tmp': No such file or directory
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   commit_loop.log
+	modified:   server.properties
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	CraftHaven/
+	CraftHaven_nether/
+	CraftHaven_the_end/
+	banned-ips.json
+	banned-players.json
+	bukkit.yml
+	cache/
+	commands.yml
+	config/
+	dummy.log
+	help.yml
+	libraries/
+	logs/
+	ops.json
+	permissions.yml
+	plugins/.paper-remapped/
+	plugins/AntiVillagerLag/
+	plugins/AuthMe/
+	plugins/Essentials/
+	plugins/Multiverse-Core/
+	plugins/Multiverse-Inventories/
+	plugins/Multiverse-NetherPortals/
+	plugins/PerWorldPlugins/
+	plugins/SilentAutoSave/
+	plugins/SkinsRestorer/
+	plugins/ViaBackwards/
+	plugins/ViaVersion/
+	plugins/WorldEdit/
+	plugins/WorldGuard/
+	plugins/bStats/
+	plugins/spark/
+	spigot.yml
+	usercache.json
+	version_history.json
+	versions/
+	wepif.yml
+	whitelist.json
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Everything up-to-date
+error: cannot pull with rebase: You have unstaged changes.
+error: Please commit or stash them.
