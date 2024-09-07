@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 0
+  login: 1725723726706
+money: '0'
+last-account-name: SupremeProMax
+lastlocation:
+  world: 9f635754-e4fc-4d1d-bfbe-1fb3f2f900a8
+  world-name: CraftHaven
+  x: 0.0
+  y: 74.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0

@@ -1,2 +1,9 @@
 error: cannot pull with rebase: You have unstaged changes.
 error: Please commit or stash them.
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+Everything up-to-date
+error: cannot pull with rebase: You have unstaged changes.
+error: Please commit or stash them.
