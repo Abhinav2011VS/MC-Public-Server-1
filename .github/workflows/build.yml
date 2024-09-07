@@ -48,7 +48,7 @@ jobs:
               git add --all  # Add all changes (new, modified, deleted files)
               git commit -m "Auto-update server changes"
               git push -f
-              sleep 60  # Commit every minute
+              sleep 300  # Commit every minute
             done
           ' > commit_loop.log 2>&1 &
 
