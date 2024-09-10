@@ -1,7 +1,7 @@
 {
-  "minecraft:recipes/transportation/mangrove_boat": {
+  "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "in_water": "2024-09-07 15:44:57 +0000"
+      "unlock_right_away": "2024-09-07 15:42:06 +0000"
     },
     "done": true
   },
@@ -10,6 +10,18 @@
       "has_stone_pickaxe": "2024-09-07 15:42:07 +0000"
     },
     "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2024-09-07 15:42:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2024-09-07 15:42:07 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/misc/red_dye_from_beetroot": {
     "criteria": {
@@ -23,15 +35,9 @@
     },
     "done": true
   },
-  "minecraft:story/upgrade_tools": {
+  "minecraft:recipes/transportation/mangrove_boat": {
     "criteria": {
-      "stone_pickaxe": "2024-09-07 15:42:07 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/crafting_table": {
-    "criteria": {
-      "unlock_right_away": "2024-09-07 15:42:06 +0000"
+      "in_water": "2024-09-07 15:44:57 +0000"
     },
     "done": true
   },
@@ -46,12 +52,6 @@
       "in_water": "2024-09-07 15:44:57 +0000"
     },
     "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:plains": "2024-09-07 15:42:07 +0000"
-    },
-    "done": false
   },
   "minecraft:recipes/transportation/bamboo_raft": {
     "criteria": {
