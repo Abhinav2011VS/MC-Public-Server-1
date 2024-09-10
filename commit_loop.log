@@ -232,3 +232,10 @@ To https://github.com/Abhinav2011VS/MC-Public-Server-1
    d16575a..c455db2  main -> main
 error: cannot pull with rebase: You have unstaged changes.
 error: Please commit or stash them.
+[main 1552574] Auto-update server changes
+ 17 files changed, 18 insertions(+)
+ rename plugins/spark/tmp-client/{spark-80a7a2a2bab-profile-data.jfr.tmp => spark-850538fa973-profile-data.jfr.tmp} (61%)
+To https://github.com/Abhinav2011VS/MC-Public-Server-1
+   c455db2..1552574  main -> main
+error: cannot pull with rebase: You have unstaged changes.
+error: Please commit or stash them.
