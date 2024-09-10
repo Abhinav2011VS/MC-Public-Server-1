@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
+  logout: 1725974529917
   login: 1725971284414
 money: '0'
 last-account-name: SupremeProMax
@@ -28,3 +28,11 @@ lastlocation:
   z: 0.0
   yaw: 0.0
   pitch: 0.0
+logoutlocation:
+  world: 9f635754-e4fc-4d1d-bfbe-1fb3f2f900a8
+  world-name: CraftHaven
+  x: 3.9823702322740857
+  y: 42.5439398241113
+  z: -5.52156270338161
+  yaw: -169.49984741210938
+  pitch: 38.99990463256836
