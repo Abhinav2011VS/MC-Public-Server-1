@@ -1,12 +1,13 @@
 general:
   language: en
   autosave-files-interval: 600
-  playtime-update-interval: 60
+  playtime-update-interval: 1
   case-sensitive-permissions: false
   disable-op: false
 bungeecord:
   enabled: false
   server-name: Global
+  uuid: ca941b7b-fd12-44dc-a66c-32e2a187a20b
 storage:
   type: YAML
   mysql:
@@ -19,10 +20,10 @@ storage:
     verbose: false
 chat:
   enabled: true
-  format: '&a[world]&r [usertag] [prefix] [player] [suffix]&r: [msg]'
+  format: '[usertag] [prefix] [player] [suffix]&r: [msg]'
 tablist_modification:
   enabled: true
-  format: '&a[world]&r [usertag] [prefix] [player] [suffix]'
+  format: '[usertag] [prefix] [player] [suffix]'
 nametagedit:
   prefix: '[usertag] [prefix]'
   suffix: '[suffix]'
@@ -50,12 +51,12 @@ announcements:
     enabled: false
     format: '[powerranks_prefix] &6[player] has been demoted to [rank]'
 updates:
-   enable_update_checking: true
-   automatic_download_updates: false
-   automatic_update_config_files: true
+  enable_update_checking: true
+  automatic_download_updates: false
+  automatic_update_config_files: true
 addon_manager:
   accepted_terms: false
 rankup:
   buy_command:
     enabled: false
-    command: 'say %playername% just bought the rank %rankname%'
+    command: say %playername% just bought the rank %rankname%
