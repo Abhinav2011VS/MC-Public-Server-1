@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1730293187752
+  login: 1730293196957
+money: '0'
+last-account-name: GameX_PlayZ
+lastlocation:
+  world: 9f635754-e4fc-4d1d-bfbe-1fb3f2f900a8
+  world-name: CraftHaven
+  x: 0.0
+  y: 74.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 9f635754-e4fc-4d1d-bfbe-1fb3f2f900a8
+  world-name: CraftHaven
+  x: 0.2606991016959994
+  y: 1.0
+  z: 0.8717305186040871
+  yaw: 144.60008239746094
+  pitch: 43.199989318847656
