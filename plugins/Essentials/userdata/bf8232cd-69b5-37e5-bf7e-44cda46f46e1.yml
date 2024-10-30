@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1730293647880
+  logout: 1730294610279
   login: 1730294044394
 money: '0'
 last-account-name: InventoStarz
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: 9f635754-e4fc-4d1d-bfbe-1fb3f2f900a8
   world-name: CraftHaven
-  x: 0.435939891033106
+  x: 0.699999988079071
   y: 1.0
-  z: 0.5072977376820454
-  yaw: -114.1507568359375
-  pitch: 89.09999084472656
+  z: 0.699999988079071
+  yaw: 162.001220703125
+  pitch: 78.44990539550781
