@@ -17,7 +17,7 @@ Owner:
   weight: 100
   namecolor: ''
   buyCost: 0.0
-  chatcolor: ''
+  chatcolor: §f
   buyableRanks: []
   buyDescription: ''
   buyCommand: ''
