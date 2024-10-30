@@ -1,0 +1,15 @@
+{
+  "location": {
+    "world": "CraftHaven",
+    "x": 1.0881615853642674,
+    "y": 1.0,
+    "z": 1.4406878776967156,
+    "yaw": -31.350037,
+    "pitch": 76.500046
+  },
+  "groups": [],
+  "operator": false,
+  "can-fly": false,
+  "walk-speed": 0.2,
+  "fly-speed": 0.1
+}
