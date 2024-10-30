@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1730293226949
+  logout: 1730293441349
   login: 1730293236501
 money: '0'
 last-account-name: GameX_PlayZ
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: 9f635754-e4fc-4d1d-bfbe-1fb3f2f900a8
   world-name: CraftHaven
-  x: 0.6420850428234224
-  y: 1.0
-  z: 0.6484103473519651
-  yaw: 63.1500244140625
-  pitch: 43.64999008178711
+  x: -0.4493533731945215
+  y: 1.1310471993710995
+  z: 3.0675353313785103
+  yaw: -157.800048828125
+  pitch: 24.44994354248047
