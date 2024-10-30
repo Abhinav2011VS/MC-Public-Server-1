@@ -16,23 +16,23 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1730294116330
+  logout: 1730294426030
   login: 1730294358026
 money: '0'
 last-account-name: goodboy
 lastlocation:
   world: 9f635754-e4fc-4d1d-bfbe-1fb3f2f900a8
   world-name: CraftHaven
-  x: 0.0
-  y: 74.0
-  z: 0.0
-  yaw: 0.0
-  pitch: 0.0
+  x: 1.972573198631595
+  y: 1.0
+  z: 2.325099490964043
+  yaw: -31.35003662109375
+  pitch: 76.50004577636719
 logoutlocation:
   world: 9f635754-e4fc-4d1d-bfbe-1fb3f2f900a8
   world-name: CraftHaven
-  x: 1.0881615853642674
+  x: 0.699999988079071
   y: 1.0
-  z: 1.4406878776967156
-  yaw: -31.35003662109375
-  pitch: 76.50004577636719
+  z: 0.30000001192092896
+  yaw: 139.19952392578125
+  pitch: 49.349979400634766
