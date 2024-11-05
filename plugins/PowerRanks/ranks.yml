@@ -3,9 +3,9 @@ Moderator:
   inheritances: []
   weight: 50
   namecolor: ''
-  buyCost: 0.0
   chatcolor: ''
   buyableRanks: []
+  buyCost: 0.0
   buyDescription: ''
   buyCommand: ''
   suffix: ''
@@ -16,9 +16,9 @@ Owner:
   inheritances: []
   weight: 100
   namecolor: ''
-  buyCost: 0.0
   chatcolor: §f
   buyableRanks: []
+  buyCost: 0.0
   buyDescription: ''
   buyCommand: ''
   suffix: ''
@@ -29,9 +29,9 @@ Admin:
   inheritances: []
   weight: 75
   namecolor: ''
-  buyCost: 0.0
   chatcolor: ''
   buyableRanks: []
+  buyCost: 0.0
   buyDescription: ''
   buyCommand: ''
   suffix: ''
@@ -42,9 +42,9 @@ Member:
   inheritances: []
   weight: 0
   namecolor: ''
-  buyCost: 0.0
   chatcolor: ''
   buyableRanks: []
+  buyCost: 0.0
   buyDescription: ''
   buyCommand: ''
   suffix: ''
