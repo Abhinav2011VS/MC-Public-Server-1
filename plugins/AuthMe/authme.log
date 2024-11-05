@@ -158,3 +158,4 @@
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
+[11-05 18:10:13]: [FINE] InventoStarz logged in 127.0.0.1

@@ -369,3 +369,522 @@ java.lang.IllegalArgumentException: Data cannot be null
 [18:09:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (minigames_lobby): All chunks are saved
 [18:09:39] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
 [18:09:39] [Server thread/INFO]: Saved the game
+[18:09:57] [Thread-12/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.143.194:16707, peerAddr=49.204.20.96:39026, claimAddress=209.25.140.2:43784, claimToken=[44, 0, 60, -47, 25, -113, -62, 65, 67, 49, -52, 20, 96, -104, 114, 18, -126, 45, 40, -85, 8, 103, 42, 95, 117, 0, 0, 0, 0, 0, 9, -24, 75, 0, 0, 0, 0, 0, 55, 76, -101, -26, 40, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, -82, -125, -110, -10, -22, -44, -105, 66, 124, 34, -121, 99, -7, -82, -86, 7], tunnelServerId=1, dataCenterId=28}
+[18:09:57] [Thread-12/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[18:09:57] [Thread-12/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.140.2:43784 to claim client
+[18:09:57] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[18:09:57] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[18:09:57] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[18:09:57] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[18:09:57] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[18:09:57] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[18:09:57] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[18:09:59] [Thread-12/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.143.194:16707, peerAddr=49.204.20.96:38999, claimAddress=209.25.140.2:43784, claimToken=[44, 0, 60, -47, 25, -113, -62, 65, 67, 49, -52, 20, 96, -104, 87, -10, -89, -99, 45, -85, 8, 103, 42, 95, 119, 0, 0, 0, 0, 0, 9, -24, 75, 0, 0, 0, 0, 0, 55, 76, -101, 29, 45, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, -65, -79, -28, 117, 9, -44, -9, 68, -41, 97, -85, -2, 104, -3, 49, -24], tunnelServerId=1, dataCenterId=28}
+[18:09:59] [Thread-12/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[18:09:59] [Thread-12/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.140.2:43784 to claim client
+[18:09:59] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[18:09:59] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[18:09:59] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[18:09:59] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[18:09:59] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[18:09:59] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[18:09:59] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[18:10:00] [User Authenticator #0/INFO]: UUID of player InventoStarz is bf8232cd-69b5-37e5-bf7e-44cda46f46e1
+[18:10:03] [Server thread/INFO]: InventoStarz joined the game
+[18:10:03] [Server thread/INFO]: InventoStarz[/127.0.0.1:46022] logged in with entity id 14 at ([CraftHaven]0.5758224509579426, 11.760694399930134, -1.3748463710454404)
+[18:10:13] [Craft Scheduler Thread - 8 - AuthMe/INFO]: [AuthMe] InventoStarz logged in 127.0.0.1
+[18:10:15] [Server thread/INFO]: InventoStarz issued server command: /oplogin Abhi-InventoStarzSupremeLegend
+[18:10:21] [Server thread/INFO]: InventoStarz issued server command: /gamemode creative
+[18:10:21] [Server thread/INFO]: [InventoStarz: Set own game mode to Creative Mode]
+[18:11:21] [Server thread/INFO]: InventoStarz issued server command: /weather sun
+[18:11:29] [Server thread/INFO]: InventoStarz issued server command: /minecraft:weather clear
+[18:11:29] [Server thread/INFO]: [InventoStarz: Set the weather to clear]
+[18:11:32] [Thread-12/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=[2602:fbaf:080c:0000:0000:0000:0000:00c2]:16707, peerAddr=[2001:19f0:6402:08f2:5400:05ff:fe0c:67c3]:57684, claimAddress=209.25.140.2:43786, claimToken=[64, 0, 88, 38, 2, -5, -81, 8, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, -62, 65, 67, 32, 1, 25, -16, 100, 2, 8, -14, 84, 0, 5, -1, -2, 12, 103, -61, -31, 84, 0, 0, 0, 0, -88, -76, 100, -3, -85, 10, 103, 42, 95, -44, 0, 0, 0, 0, 0, 9, -24, 75, 0, 0, 0, 0, 0, 55, 76, -101, -70, -3, -85, 10, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 37, 84, 117, -51, 28, -104, -55, -73, 23, -121, 85, -122, 53, -110, -8, 27], tunnelServerId=1, dataCenterId=44}
+[18:11:32] [Thread-12/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[18:11:32] [Thread-12/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.140.2:43786 to claim client
+[18:11:32] [Thread-12/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.140.194:16707, peerAddr=216.128.138.102:53406, claimAddress=209.25.140.2:43786, claimToken=[44, 0, 60, -47, 25, -116, -62, 65, 67, -40, -128, -118, 102, -48, -98, 120, -37, 27, -73, -85, 10, 103, 42, 95, -44, 0, 0, 0, 0, 0, 9, -24, 75, 0, 0, 0, 0, 0, 55, 76, -101, -53, -73, -85, 10, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 4, 115, 43, 21, 72, 12, -49, 60, -15, -111, -113, -6, -43, -73, -88, -34, 20], tunnelServerId=1, dataCenterId=44}
+[18:11:32] [Thread-12/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[18:11:32] [Thread-12/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.140.2:43786 to claim client
+[18:11:32] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[18:11:32] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[18:11:32] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[18:11:32] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[18:11:32] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[18:11:32] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[18:11:32] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[18:11:32] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[18:11:32] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[18:11:32] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[18:11:32] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[18:11:32] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[18:11:32] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[18:11:32] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[18:11:34] [Thread-12/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.140.194:16707, peerAddr=216.128.138.102:53414, claimAddress=209.25.140.2:43786, claimToken=[44, 0, 60, -47, 25, -116, -62, 65, 67, -40, -128, -118, 102, -48, -90, -47, -33, -78, 48, -85, 10, 103, 42, 95, -42, 0, 0, 0, 0, 0, 9, -24, 75, 0, 0, 0, 0, 0, 55, 76, -101, 92, 48, -85, 10, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 4, 10, 36, 103, -118, 102, 116, -40, -77, -89, 51, 70, -105, -80, 117, -42, 1], tunnelServerId=1, dataCenterId=44}
+[18:11:34] [Thread-12/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[18:11:34] [Thread-12/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.140.2:43786 to claim client
+[18:11:34] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[18:11:34] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[18:11:34] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[18:11:34] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[18:11:34] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[18:11:34] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[18:11:34] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[18:11:34] [Thread-12/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.140.194:16707, peerAddr=216.128.138.102:53416, claimAddress=209.25.140.2:43786, claimToken=[44, 0, 60, -47, 25, -116, -62, 65, 67, -40, -128, -118, 102, -48, -88, 32, -54, 111, -102, -85, 10, 103, 42, 95, -42, 0, 0, 0, 0, 0, 9, -24, 75, 0, 0, 0, 0, 0, 55, 76, -101, -24, -102, -85, 10, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 21, -123, 28, -44, -61, -9, -125, -101, -122, -1, 22, 17, 40, 18, 33, -95], tunnelServerId=1, dataCenterId=44}
+[18:11:34] [Thread-12/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[18:11:34] [Thread-12/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.140.2:43786 to claim client
+[18:11:34] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[18:11:34] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[18:11:34] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[18:11:34] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[18:11:34] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[18:11:34] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[18:11:34] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[18:11:34] [Thread-12/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.140.194:16707, peerAddr=216.128.138.102:53428, claimAddress=209.25.140.2:43786, claimToken=[44, 0, 60, -47, 25, -116, -62, 65, 67, -40, -128, -118, 102, -48, -76, 83, -80, 24, 70, -85, 10, 103, 42, 95, -42, 0, 0, 0, 0, 0, 9, -24, 75, 0, 0, 0, 0, 0, 55, 76, -101, 35, 70, -85, 10, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 4, 25, 66, 102, 55, -53, 36, 30, -80, -16, -109, -61, 2, -38, 30, 14, 11], tunnelServerId=1, dataCenterId=44}
+[18:11:34] [Thread-12/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[18:11:34] [Thread-12/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.140.2:43786 to claim client
+[18:11:34] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[18:11:34] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[18:11:34] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[18:11:34] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[18:11:34] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[18:11:34] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[18:11:34] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[18:11:34] [Thread-12/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.140.194:16707, peerAddr=216.128.138.102:53440, claimAddress=209.25.140.2:43786, claimToken=[44, 0, 60, -47, 25, -116, -62, 65, 67, -40, -128, -118, 102, -48, -64, 119, -69, 112, 101, -85, 10, 103, 42, 95, -42, 0, 0, 0, 0, 0, 9, -24, 75, 0, 0, 0, 0, 0, 55, 76, -101, -24, 101, -85, 10, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 80, -42, 85, 94, 38, 22, -71, 114, -101, -41, 124, 109, -121, -68, -21, -78], tunnelServerId=1, dataCenterId=44}
+[18:11:34] [Thread-12/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[18:11:34] [Thread-12/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.140.2:43786 to claim client
+[18:11:34] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[18:11:34] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[18:11:34] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[18:11:34] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[18:11:34] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[18:11:34] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[18:11:34] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[18:11:36] [Thread-12/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.140.194:16707, peerAddr=216.128.138.102:52060, claimAddress=209.25.140.2:43786, claimToken=[44, 0, 60, -47, 25, -116, -62, 65, 67, -40, -128, -118, 102, -53, 92, -3, -112, -108, -41, -85, 10, 103, 42, 95, -40, 0, 0, 0, 0, 0, 9, -24, 75, 0, 0, 0, 0, 0, 55, 76, -101, 90, -41, -85, 10, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 4, -112, -113, 119, 37, -12, -56, 48, 49, -65, -21, 12, -101, -13, 58, -96, 53], tunnelServerId=1, dataCenterId=44}
+[18:11:36] [Thread-12/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[18:11:36] [Thread-12/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.140.2:43786 to claim client
+[18:11:36] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[18:11:36] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[18:11:36] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[18:11:36] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[18:11:36] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[18:11:36] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[18:11:36] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[18:11:38] [Thread-12/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.140.194:16707, peerAddr=216.128.138.102:52070, claimAddress=209.25.140.2:43786, claimToken=[44, 0, 60, -47, 25, -116, -62, 65, 67, -40, -128, -118, 102, -53, 102, 49, 107, -74, -54, -85, 10, 103, 42, 95, -38, 0, 0, 0, 0, 0, 9, -24, 75, 0, 0, 0, 0, 0, 55, 76, -101, 30, -54, -85, 10, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 52, -79, -104, 113, 16, 124, -45, -107, -14, 79, 34, -69, -105, 1, 27, -103], tunnelServerId=1, dataCenterId=44}
+[18:11:38] [Thread-12/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[18:11:38] [Thread-12/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.140.2:43786 to claim client
+[18:11:38] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[18:11:38] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[18:11:38] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[18:11:38] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[18:11:38] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[18:11:38] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[18:11:38] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[18:11:38] [Thread-12/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.140.194:16707, peerAddr=216.128.138.102:52078, claimAddress=209.25.140.2:43786, claimToken=[44, 0, 60, -47, 25, -116, -62, 65, 67, -40, -128, -118, 102, -53, 110, -62, 41, -67, 93, -85, 10, 103, 42, 95, -38, 0, 0, 0, 0, 0, 9, -24, 75, 0, 0, 0, 0, 0, 55, 76, -101, 7, 93, -85, 10, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 3, 95, -34, -60, -57, -124, 79, 97, 32, -84, 102, 117, -1, 90, -34, 13, -124], tunnelServerId=1, dataCenterId=44}
+[18:11:38] [Thread-12/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[18:11:38] [Thread-12/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.140.2:43786 to claim client
+[18:11:38] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[18:11:38] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[18:11:38] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[18:11:38] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[18:11:38] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[18:11:38] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[18:11:38] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[18:11:38] [Thread-12/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.140.194:16707, peerAddr=216.128.138.102:52088, claimAddress=209.25.140.2:43786, claimToken=[44, 0, 60, -47, 25, -116, -62, 65, 67, -40, -128, -118, 102, -53, 120, -104, -37, 126, 4, -85, 10, 103, 42, 95, -38, 0, 0, 0, 0, 0, 9, -24, 75, 0, 0, 0, 0, 0, 55, 76, -101, 26, 4, -85, 10, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 4, 36, 50, -122, -92, 112, 41, 122, -92, 72, 7, -60, -11, -43, 78, 77, 116], tunnelServerId=1, dataCenterId=44}
+[18:11:38] [Thread-12/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[18:11:38] [Thread-12/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.140.2:43786 to claim client
+[18:11:38] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[18:11:38] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[18:11:38] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[18:11:38] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[18:11:38] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[18:11:38] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[18:11:38] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[18:11:38] [Thread-12/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.140.194:16707, peerAddr=216.128.138.102:52090, claimAddress=209.25.140.2:43786, claimToken=[44, 0, 60, -47, 25, -116, -62, 65, 67, -40, -128, -118, 102, -53, 122, -54, -99, 61, 63, -85, 10, 103, 42, 95, -38, 0, 0, 0, 0, 0, 9, -24, 75, 0, 0, 0, 0, 0, 55, 76, -101, -47, 63, -85, 10, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 3, 51, 71, 38, 40, 23, 67, 74, -5, -25, 13, 11, -107, -94, 100, -126, -91], tunnelServerId=1, dataCenterId=44}
+[18:11:38] [Thread-12/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[18:11:38] [Thread-12/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.140.2:43786 to claim client
+[18:11:38] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[18:11:38] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[18:11:38] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[18:11:38] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[18:11:38] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[18:11:38] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[18:11:38] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[18:11:39] [Thread-12/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.140.194:16707, peerAddr=216.128.138.102:52094, claimAddress=209.25.140.2:43786, claimToken=[44, 0, 60, -47, 25, -116, -62, 65, 67, -40, -128, -118, 102, -53, 126, 105, -87, 43, 91, -85, 10, 103, 42, 95, -37, 0, 0, 0, 0, 0, 9, -24, 75, 0, 0, 0, 0, 0, 55, 76, -101, -40, 91, -85, 10, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 4, -110, -87, 127, -56, -9, 25, -86, -42, -48, 107, -118, -66, -40, -29, 19, -58], tunnelServerId=1, dataCenterId=44}
+[18:11:39] [Thread-12/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[18:11:39] [Thread-12/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.140.2:43786 to claim client
+[18:11:39] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[18:11:39] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[18:11:39] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[18:11:39] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[18:11:39] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[18:11:39] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[18:11:39] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[18:11:40] [Server thread/INFO]: InventoStarz issued server command: /gamerule doWeatherCycle false
+[18:11:40] [Server thread/INFO]: [InventoStarz: Gamerule doWeatherCycle is now set to: false]
+[18:11:42] [Thread-12/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=[2602:fbaf:080c:0000:0000:0000:0000:00c2]:16707, peerAddr=[2001:19f0:6402:08f2:5400:05ff:fe0c:67c3]:54872, claimAddress=209.25.140.2:43786, claimToken=[64, 0, 88, 38, 2, -5, -81, 8, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, -62, 65, 67, 32, 1, 25, -16, 100, 2, 8, -14, 84, 0, 5, -1, -2, 12, 103, -61, -42, 88, 0, 0, 0, 0, -120, -17, -46, 40, -85, 10, 103, 42, 95, -34, 0, 0, 0, 0, 0, 9, -24, 75, 0, 0, 0, 0, 0, 55, 76, -101, 87, 40, -85, 10, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, -86, 123, 19, -28, -81, 66, 85, -81, 52, -121, -31, 32, 14, 113, -49, -104], tunnelServerId=1, dataCenterId=44}
+[18:11:42] [Thread-12/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[18:11:42] [Thread-12/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.140.2:43786 to claim client
+[18:11:42] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[18:11:42] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[18:11:42] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[18:11:42] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[18:11:42] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[18:11:42] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[18:11:42] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[18:11:45] [Thread-12/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.140.194:16707, peerAddr=216.128.138.102:50838, claimAddress=209.25.140.2:43786, claimToken=[44, 0, 60, -47, 25, -116, -62, 65, 67, -40, -128, -118, 102, -58, -106, 33, -41, -117, -21, -85, 10, 103, 42, 95, -31, 0, 0, 0, 0, 0, 9, -24, 75, 0, 0, 0, 0, 0, 55, 76, -101, 94, -21, -85, 10, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 33, -114, -106, -63, -80, 76, 56, 109, 74, 109, 41, -45, 13, 1, 38, -28], tunnelServerId=1, dataCenterId=44}
+[18:11:45] [Thread-12/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[18:11:45] [Thread-12/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.140.2:43786 to claim client
+[18:11:45] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[18:11:45] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[18:11:45] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[18:11:45] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[18:11:45] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[18:11:45] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[18:11:45] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[18:11:45] [Thread-12/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=[2602:fbaf:080c:0000:0000:0000:0000:00c2]:16707, peerAddr=[2001:19f0:6402:08f2:5400:05ff:fe0c:67c3]:54268, claimAddress=209.25.140.2:43786, claimToken=[64, 0, 88, 38, 2, -5, -81, 8, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, -62, 65, 67, 32, 1, 25, -16, 100, 2, 8, -14, 84, 0, 5, -1, -2, 12, 103, -61, -45, -4, 0, 0, 0, 0, -119, 119, -124, 16, -85, 10, 103, 42, 95, -31, 0, 0, 0, 0, 0, 9, -24, 75, 0, 0, 0, 0, 0, 55, 76, -101, 107, 16, -85, 10, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 126, -49, 127, -85, -59, 62, 26, -68, 99, 29, -11, -86, -14, -9, 67, 69], tunnelServerId=1, dataCenterId=44}
+[18:11:45] [Thread-12/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[18:11:45] [Thread-12/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.140.2:43786 to claim client
+[18:11:45] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[18:11:45] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[18:11:45] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[18:11:45] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[18:11:45] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[18:11:45] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[18:11:45] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[18:11:47] [Server thread/INFO]: Saving the game (this may take a moment!)
+[18:11:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (CraftHaven): All chunks are saved
+[18:11:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:11:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:11:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (kitpvp): All chunks are saved
+[18:11:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (fireball_fight_lobby): All chunks are saved
+[18:11:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (lobby): All chunks are saved
+[18:11:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (survival): All chunks are saved
+[18:11:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (bedwars_lobby): All chunks are saved
+[18:11:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (pvp): All chunks are saved
+[18:11:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (minigames_lobby): All chunks are saved
+[18:11:49] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:11:49] [Server thread/INFO]: Saved the game
+[18:11:49] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to WorldGuard v7.0.10+d9424b1
+java.lang.NoSuchFieldError: Class org.bukkit.Tag does not have member field 'org.bukkit.Tag ITEMS_MUSIC_DISCS'
+	at WorldGuard-7.0.10.jar/com.sk89q.worldguard.bukkit.util.Materials.<clinit>(Materials.java:867) ~[WorldGuard-7.0.10.jar:?]
+	at WorldGuard-7.0.10.jar/com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.handleBlockRightClick(EventAbstractionListener.java:1153) ~[WorldGuard-7.0.10.jar:?]
+	at WorldGuard-7.0.10.jar/com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.onPlayerInteract(EventAbstractionListener.java:496) ~[WorldGuard-7.0.10.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor269.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-52-e08e667]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at PerWorldPlugins-1.5.6.jar/dev.tonimatas.perworldplugins.api.PerWorldRegisteredListener.callEvent(PerWorldRegisteredListener.java:29) ~[PerWorldPlugins-1.5.6.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:604) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:536) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1942) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:44) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:11) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:56) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1466) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1588) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[18:11:49] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to WorldGuard v7.0.10+d9424b1
+java.lang.NoClassDefFoundError: Could not initialize class com.sk89q.worldguard.bukkit.util.Materials
+	at WorldGuard-7.0.10.jar/com.sk89q.worldguard.bukkit.listener.WorldGuardPlayerListener.handleBlockRightClick(WorldGuardPlayerListener.java:248) ~[WorldGuard-7.0.10.jar:?]
+	at WorldGuard-7.0.10.jar/com.sk89q.worldguard.bukkit.listener.WorldGuardPlayerListener.onPlayerInteract(WorldGuardPlayerListener.java:210) ~[WorldGuard-7.0.10.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor149.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-52-e08e667]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at PerWorldPlugins-1.5.6.jar/dev.tonimatas.perworldplugins.api.PerWorldRegisteredListener.callEvent(PerWorldRegisteredListener.java:29) ~[PerWorldPlugins-1.5.6.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:604) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:536) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1942) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:44) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:11) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:56) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1466) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1588) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NoSuchFieldError: Class org.bukkit.Tag does not have member field 'org.bukkit.Tag ITEMS_MUSIC_DISCS' [in thread "Server thread"]
+	at WorldGuard-7.0.10.jar/com.sk89q.worldguard.bukkit.util.Materials.<clinit>(Materials.java:867) ~[WorldGuard-7.0.10.jar:?]
+	at WorldGuard-7.0.10.jar/com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.handleBlockRightClick(EventAbstractionListener.java:1153) ~[WorldGuard-7.0.10.jar:?]
+	at WorldGuard-7.0.10.jar/com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.onPlayerInteract(EventAbstractionListener.java:496) ~[WorldGuard-7.0.10.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor269.execute(Unknown Source) ~[?:?]
+	... 27 more
+[18:11:51] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to WorldGuard v7.0.10+d9424b1
+java.lang.NoClassDefFoundError: Could not initialize class com.sk89q.worldguard.bukkit.util.Materials
+	at WorldGuard-7.0.10.jar/com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.handleBlockRightClick(EventAbstractionListener.java:1153) ~[WorldGuard-7.0.10.jar:?]
+	at WorldGuard-7.0.10.jar/com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.onPlayerInteract(EventAbstractionListener.java:496) ~[WorldGuard-7.0.10.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor269.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-52-e08e667]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at PerWorldPlugins-1.5.6.jar/dev.tonimatas.perworldplugins.api.PerWorldRegisteredListener.callEvent(PerWorldRegisteredListener.java:29) ~[PerWorldPlugins-1.5.6.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:604) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:536) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1942) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:44) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:11) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:56) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1466) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1473) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1318) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NoSuchFieldError: Class org.bukkit.Tag does not have member field 'org.bukkit.Tag ITEMS_MUSIC_DISCS' [in thread "Server thread"]
+	at WorldGuard-7.0.10.jar/com.sk89q.worldguard.bukkit.util.Materials.<clinit>(Materials.java:867) ~[WorldGuard-7.0.10.jar:?]
+	at WorldGuard-7.0.10.jar/com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.handleBlockRightClick(EventAbstractionListener.java:1153) ~[WorldGuard-7.0.10.jar:?]
+	at WorldGuard-7.0.10.jar/com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.onPlayerInteract(EventAbstractionListener.java:496) ~[WorldGuard-7.0.10.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor269.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-52-e08e667]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at PerWorldPlugins-1.5.6.jar/dev.tonimatas.perworldplugins.api.PerWorldRegisteredListener.callEvent(PerWorldRegisteredListener.java:29) ~[PerWorldPlugins-1.5.6.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:604) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:536) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1942) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:44) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:11) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:56) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1466) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1588) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	... 2 more
+[18:11:51] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to WorldGuard v7.0.10+d9424b1
+java.lang.NoClassDefFoundError: Could not initialize class com.sk89q.worldguard.bukkit.util.Materials
+	at WorldGuard-7.0.10.jar/com.sk89q.worldguard.bukkit.listener.WorldGuardPlayerListener.handleBlockRightClick(WorldGuardPlayerListener.java:248) ~[WorldGuard-7.0.10.jar:?]
+	at WorldGuard-7.0.10.jar/com.sk89q.worldguard.bukkit.listener.WorldGuardPlayerListener.onPlayerInteract(WorldGuardPlayerListener.java:210) ~[WorldGuard-7.0.10.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor149.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-52-e08e667]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at PerWorldPlugins-1.5.6.jar/dev.tonimatas.perworldplugins.api.PerWorldRegisteredListener.callEvent(PerWorldRegisteredListener.java:29) ~[PerWorldPlugins-1.5.6.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:604) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:536) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1942) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:44) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:11) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:56) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1466) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1473) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1318) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NoSuchFieldError: Class org.bukkit.Tag does not have member field 'org.bukkit.Tag ITEMS_MUSIC_DISCS' [in thread "Server thread"]
+	at WorldGuard-7.0.10.jar/com.sk89q.worldguard.bukkit.util.Materials.<clinit>(Materials.java:867) ~[WorldGuard-7.0.10.jar:?]
+	at WorldGuard-7.0.10.jar/com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.handleBlockRightClick(EventAbstractionListener.java:1153) ~[WorldGuard-7.0.10.jar:?]
+	at WorldGuard-7.0.10.jar/com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.onPlayerInteract(EventAbstractionListener.java:496) ~[WorldGuard-7.0.10.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor269.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-52-e08e667]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at PerWorldPlugins-1.5.6.jar/dev.tonimatas.perworldplugins.api.PerWorldRegisteredListener.callEvent(PerWorldRegisteredListener.java:29) ~[PerWorldPlugins-1.5.6.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:604) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:536) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1942) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:44) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:11) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:56) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1466) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1588) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	... 2 more
+[18:11:51] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to WorldGuard v7.0.10+d9424b1
+java.lang.NoClassDefFoundError: Could not initialize class com.sk89q.worldguard.bukkit.util.Materials
+	at WorldGuard-7.0.10.jar/com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.handleBlockRightClick(EventAbstractionListener.java:1153) ~[WorldGuard-7.0.10.jar:?]
+	at WorldGuard-7.0.10.jar/com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.onPlayerInteract(EventAbstractionListener.java:496) ~[WorldGuard-7.0.10.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor269.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-52-e08e667]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at PerWorldPlugins-1.5.6.jar/dev.tonimatas.perworldplugins.api.PerWorldRegisteredListener.callEvent(PerWorldRegisteredListener.java:29) ~[PerWorldPlugins-1.5.6.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:604) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:536) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1942) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:44) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:11) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:56) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1466) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1473) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1318) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NoSuchFieldError: Class org.bukkit.Tag does not have member field 'org.bukkit.Tag ITEMS_MUSIC_DISCS' [in thread "Server thread"]
+	at WorldGuard-7.0.10.jar/com.sk89q.worldguard.bukkit.util.Materials.<clinit>(Materials.java:867) ~[WorldGuard-7.0.10.jar:?]
+	at WorldGuard-7.0.10.jar/com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.handleBlockRightClick(EventAbstractionListener.java:1153) ~[WorldGuard-7.0.10.jar:?]
+	at WorldGuard-7.0.10.jar/com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.onPlayerInteract(EventAbstractionListener.java:496) ~[WorldGuard-7.0.10.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor269.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-52-e08e667]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at PerWorldPlugins-1.5.6.jar/dev.tonimatas.perworldplugins.api.PerWorldRegisteredListener.callEvent(PerWorldRegisteredListener.java:29) ~[PerWorldPlugins-1.5.6.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:604) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:536) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1942) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:44) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:11) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:56) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1466) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1588) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	... 2 more
+[18:11:51] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to WorldGuard v7.0.10+d9424b1
+java.lang.NoClassDefFoundError: Could not initialize class com.sk89q.worldguard.bukkit.util.Materials
+	at WorldGuard-7.0.10.jar/com.sk89q.worldguard.bukkit.listener.WorldGuardPlayerListener.handleBlockRightClick(WorldGuardPlayerListener.java:248) ~[WorldGuard-7.0.10.jar:?]
+	at WorldGuard-7.0.10.jar/com.sk89q.worldguard.bukkit.listener.WorldGuardPlayerListener.onPlayerInteract(WorldGuardPlayerListener.java:210) ~[WorldGuard-7.0.10.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor149.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-52-e08e667]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at PerWorldPlugins-1.5.6.jar/dev.tonimatas.perworldplugins.api.PerWorldRegisteredListener.callEvent(PerWorldRegisteredListener.java:29) ~[PerWorldPlugins-1.5.6.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:604) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:536) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1942) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:44) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:11) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:56) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1466) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1473) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1318) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NoSuchFieldError: Class org.bukkit.Tag does not have member field 'org.bukkit.Tag ITEMS_MUSIC_DISCS' [in thread "Server thread"]
+	at WorldGuard-7.0.10.jar/com.sk89q.worldguard.bukkit.util.Materials.<clinit>(Materials.java:867) ~[WorldGuard-7.0.10.jar:?]
+	at WorldGuard-7.0.10.jar/com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.handleBlockRightClick(EventAbstractionListener.java:1153) ~[WorldGuard-7.0.10.jar:?]
+	at WorldGuard-7.0.10.jar/com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.onPlayerInteract(EventAbstractionListener.java:496) ~[WorldGuard-7.0.10.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor269.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-52-e08e667]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at PerWorldPlugins-1.5.6.jar/dev.tonimatas.perworldplugins.api.PerWorldRegisteredListener.callEvent(PerWorldRegisteredListener.java:29) ~[PerWorldPlugins-1.5.6.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:604) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:536) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1942) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:44) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:11) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:56) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1466) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1588) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-52-e08e667]
+	... 2 more
+[18:11:51] [Thread-12/INFO]: [gg.playit.control.ChannelSetup] send keep alive
