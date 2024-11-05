@@ -13246,3 +13246,154 @@ java.io.IOException: Connection timed out
 [23:08:12] [Server thread/INFO]: [Not Secure] [Server] Server will restart in 17 seconds
 [23:08:13] [Server thread/INFO]: [Not Secure] [Server] Server will restart in 16 seconds
 [23:08:14] [Server thread/INFO]: [Not Secure] [Server] Server will restart in 15 seconds
+[23:08:15] [Server thread/INFO]: [Not Secure] [Server] Server will restart in 14 seconds
+[23:08:16] [Server thread/INFO]: [Not Secure] [Server] Server will restart in 13 seconds
+[23:08:17] [Server thread/INFO]: [Not Secure] [Server] Server will restart in 12 seconds
+[23:08:18] [Server thread/INFO]: [Not Secure] [Server] Server will restart in 11 seconds
+[23:08:19] [Server thread/INFO]: [Not Secure] [Server] Server will restart in 10 seconds
+[23:08:20] [Server thread/INFO]: [Not Secure] [Server] Server will restart in 9 seconds
+[23:08:21] [Server thread/INFO]: [Not Secure] [Server] Server will restart in 8 seconds
+[23:08:22] [Server thread/INFO]: [Not Secure] [Server] Server will restart in 7 seconds
+[23:08:23] [Server thread/INFO]: [Not Secure] [Server] Server will restart in 6 seconds
+[23:08:24] [Server thread/INFO]: [Not Secure] [Server] Server will restart in 5 seconds
+[23:08:25] [Server thread/INFO]: [Not Secure] [Server] Server will restart in 4 seconds
+[23:08:26] [Server thread/INFO]: [Not Secure] [Server] Server will restart in 3 seconds
+[23:08:27] [Server thread/INFO]: [Not Secure] [Server] Server will restart in 2 seconds
+[23:08:28] [Server thread/INFO]: [Not Secure] [Server] Server will restart in 1 seconds
+[23:08:29] [Server thread/INFO]: Stopping the server
+[23:08:29] [Server thread/INFO]: [Not Secure] [Server] Server restarting...
+[23:08:29] [Server thread/INFO]: Stopping server
+[23:08:29] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
+[23:08:29] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-bCUSTOM
+[23:08:30] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
+[23:08:30] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-bCUSTOM disabled!
+[23:08:30] [Server thread/INFO]: [fast-leaf-decay] Disabling fast-leaf-decay v1.1.0
+[23:08:30] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.10+d9424b1
+[23:08:30] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[23:08:30] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.20.1
+[23:08:30] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.4.3
+[23:08:30] [Server thread/INFO]: [Discord-Linker] Disabling Discord-Linker v3.4.2
+[23:08:30] [Server thread/INFO]: [Discord-Linker] §cPlugin disabled.
+[23:08:30] [Server thread/INFO]: [PowerRanks] Disabling PowerRanks v1.10.10
+[23:08:30] [EventThread/ERROR]: [io.socket.thread.EventThread] Task threw exception
+java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:846) ~[?:?]
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:338) ~[?:?]
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:516) ~[?:?]
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:471) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:209) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:169) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at DiscordLinker-3.4.2.jar/io.socket.engineio.client.Socket.close(Socket.java:720) ~[DiscordLinker-3.4.2.jar:?]
+	at DiscordLinker-3.4.2.jar/io.socket.client.Manager.close(Manager.java:463) ~[DiscordLinker-3.4.2.jar:?]
+	at DiscordLinker-3.4.2.jar/io.socket.client.Manager.destroy(Manager.java:400) ~[DiscordLinker-3.4.2.jar:?]
+	at DiscordLinker-3.4.2.jar/io.socket.client.Socket.destroy(Socket.java:457) ~[DiscordLinker-3.4.2.jar:?]
+	at DiscordLinker-3.4.2.jar/io.socket.client.Socket.access$1300(Socket.java:19) ~[DiscordLinker-3.4.2.jar:?]
+	at DiscordLinker-3.4.2.jar/io.socket.client.Socket$8.run(Socket.java:476) ~[DiscordLinker-3.4.2.jar:?]
+	at DiscordLinker-3.4.2.jar/io.socket.thread.EventThread$2.run(EventThread.java:80) ~[DiscordLinker-3.4.2.jar:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[23:08:30] [EventThread/WARN]: Exception in thread "EventThread" java.lang.IllegalStateException: zip file closed
+[23:08:30] [EventThread/WARN]: 	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:846)
+[23:08:30] [EventThread/WARN]: 	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:338)
+[23:08:30] [EventThread/WARN]: 	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:516)
+[23:08:30] [EventThread/WARN]: 	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:471)
+[23:08:30] [EventThread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:209)
+[23:08:30] [EventThread/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+[23:08:30] [EventThread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:169)
+[23:08:30] [EventThread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164)
+[23:08:30] [EventThread/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+[23:08:30] [EventThread/WARN]: 	at DiscordLinker-3.4.2.jar//io.socket.engineio.client.Socket.close(Socket.java:720)
+[23:08:30] [EventThread/WARN]: 	at DiscordLinker-3.4.2.jar//io.socket.client.Manager.close(Manager.java:463)
+[23:08:30] [EventThread/WARN]: 	at DiscordLinker-3.4.2.jar//io.socket.client.Manager.destroy(Manager.java:400)
+[23:08:30] [EventThread/WARN]: 	at DiscordLinker-3.4.2.jar//io.socket.client.Socket.destroy(Socket.java:457)
+[23:08:30] [EventThread/WARN]: 	at DiscordLinker-3.4.2.jar//io.socket.client.Socket.access$1300(Socket.java:19)
+[23:08:30] [EventThread/WARN]: 	at DiscordLinker-3.4.2.jar//io.socket.client.Socket$8.run(Socket.java:476)
+[23:08:30] [EventThread/WARN]: 	at DiscordLinker-3.4.2.jar//io.socket.thread.EventThread$2.run(EventThread.java:80)
+[23:08:30] [EventThread/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[23:08:30] [EventThread/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[23:08:30] [EventThread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[23:08:30] [Server thread/INFO]: [PowerRanks] Disabled PowerRanks v1.10.10
+[23:08:30] [Server thread/INFO]: [AntiVillagerLag] Disabling AntiVillagerLag v2.3.1
+[23:08:30] [Server thread/INFO]: [Multiverse-NetherPortals] Disabling Multiverse-NetherPortals v4.3.0-SNAPSHOT
+[23:08:30] [Server thread/INFO]: [Multiverse-NetherPortals] - Disabled
+[23:08:30] [Server thread/INFO]: [oplogin] Disabling oplogin v1.0-SNAPSHOT
+[23:08:30] [Server thread/INFO]: [playit-gg] Disabling playit-gg v0.1.4
+[23:08:30] [Server thread/INFO]: [SilentAutoSave] Disabling SilentAutoSave v3.0
+[23:08:30] [Server thread/INFO]: [Maintenance] Disabling Maintenance v4.3.0
+[23:08:30] [Server thread/INFO]: [PerWorldPlugins] Disabling PerWorldPlugins v1.5.6
+[23:08:30] [Server thread/INFO]: [Multiverse-Inventories] Disabling Multiverse-Inventories v4.2.6
+[23:08:30] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.20.1
+[23:08:30] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.6+6892-3d660b8
+[23:08:30] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[23:08:30] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.0.3
+[23:08:30] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.13-SNAPSHOT
+[23:08:30] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.1
+[23:08:30] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.1.0
+[23:08:30] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[23:08:30] [Server thread/INFO]: Saving players
+[23:08:30] [Server thread/INFO]: Saving worlds
+[23:08:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[CraftHaven]'/minecraft:overworld
+[23:08:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'CraftHaven'
+[23:08:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'CraftHaven'
+[23:08:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'CraftHaven'
+[23:08:30] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'CraftHaven' in 0.00s
+[23:08:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[CraftHaven_nether]'/minecraft:the_nether
+[23:08:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'CraftHaven_nether'
+[23:08:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'CraftHaven_nether'
+[23:08:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'CraftHaven_nether'
+[23:08:30] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'CraftHaven_nether' in 0.00s
+[23:08:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[CraftHaven_the_end]'/minecraft:the_end
+[23:08:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'CraftHaven_the_end'
+[23:08:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'CraftHaven_the_end'
+[23:08:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'CraftHaven_the_end'
+[23:08:30] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'CraftHaven_the_end' in 0.00s
+[23:08:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[kitpvp]'/minecraft:kitpvp
+[23:08:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'kitpvp'
+[23:08:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'kitpvp'
+[23:08:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'kitpvp'
+[23:08:30] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'kitpvp' in 0.00s
+[23:08:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[fireball_fight_lobby]'/minecraft:fireball_fight_lobby
+[23:08:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'fireball_fight_lobby'
+[23:08:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'fireball_fight_lobby'
+[23:08:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'fireball_fight_lobby'
+[23:08:30] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'fireball_fight_lobby' in 0.00s
+[23:08:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[lobby]'/minecraft:lobby
+[23:08:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'lobby'
+[23:08:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'lobby'
+[23:08:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'lobby'
+[23:08:30] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'lobby' in 0.00s
+[23:08:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[survival]'/minecraft:survival
+[23:08:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'survival'
+[23:08:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'survival'
+[23:08:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'survival'
+[23:08:30] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'survival' in 0.00s
+[23:08:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[bedwars_lobby]'/minecraft:bedwars_lobby
+[23:08:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'bedwars_lobby'
+[23:08:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'bedwars_lobby'
+[23:08:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'bedwars_lobby'
+[23:08:30] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'bedwars_lobby' in 0.00s
+[23:08:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[pvp]'/minecraft:pvp
+[23:08:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'pvp'
+[23:08:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'pvp'
+[23:08:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'pvp'
+[23:08:30] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'pvp' in 0.00s
+[23:08:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[minigames_lobby]'/minecraft:minigames_lobby
+[23:08:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minigames_lobby'
+[23:08:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minigames_lobby'
+[23:08:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minigames_lobby'
+[23:08:30] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minigames_lobby' in 0.00s
+[23:08:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (CraftHaven): All chunks are saved
+[23:08:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:08:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:08:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (kitpvp): All chunks are saved
+[23:08:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (fireball_fight_lobby): All chunks are saved
+[23:08:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (lobby): All chunks are saved
+[23:08:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (survival): All chunks are saved
+[23:08:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (bedwars_lobby): All chunks are saved
+[23:08:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (pvp): All chunks are saved
+[23:08:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (minigames_lobby): All chunks are saved
+[23:08:30] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
